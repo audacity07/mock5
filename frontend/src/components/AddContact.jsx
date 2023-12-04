@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import axios from "axios";
 
-let URL = `http://localhost:4500/contacts`;
+let URL = `https://mock5be.onrender.com/contacts`;
 
 export default function AddContact({
   email,

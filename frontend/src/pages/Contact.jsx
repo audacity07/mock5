@@ -24,7 +24,7 @@ import {
 import axios from "axios";
 import AddContact from "../components/AddContact";
 
-let URL = `http://localhost:4500/contacts`;
+let URL = `https://mock5be.onrender.com/contacts`;
 
 export default function Contact() {
   const dispatch = useDispatch();
